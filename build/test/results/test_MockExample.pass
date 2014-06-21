@@ -1,0 +1,21 @@
+---
+:source:
+  :path: test
+  :file: test_MockExample.c
+:successes:
+- :test: test_reverseString_exploration
+  :line: 13
+  :message: ''
+:failures: []
+:ignores: []
+:counts:
+  :total: 1
+  :passed: 1
+  :failed: 0
+  :ignored: 0
+:stdout:
+- 'stackInstance: 0023FE60'
+- stack:0023FE60
+- size:0, length:512
+- banana
+- ananab

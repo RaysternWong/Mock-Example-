@@ -1,0 +1,28 @@
+---
+:source:
+  :path: test
+  :file: test_Stack.c
+:successes:
+- :test: test_stackNew_should_setup_the_new_stack
+  :line: 22
+  :message: ''
+- :test: test_stackPush_given_3number_push_to_stack_should_alocate
+  :line: 30
+  :message: ''
+- :test: test_stackPush_given_5numbeer_push_to_stack_should_throw_exception
+  :line: 45
+  :message: ''
+- :test: test_stackPop_given_6_should_pop_6
+  :line: 63
+  :message: ''
+- :test: test_stackPop_given_3number_but_pop_4times_should_throw_exception
+  :line: 73
+  :message: ''
+:failures: []
+:ignores: []
+:counts:
+  :total: 5
+  :passed: 5
+  :failed: 0
+  :ignored: 0
+:stdout: []
